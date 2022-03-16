@@ -20,3 +20,6 @@ from alert import slack_alert
 'on_success_callback': slack_alert.task_send_success_slack_alert
 ```
 Selanjutnya, tinggal aktifkan DAG ini pada Airflow dan buat trigger untuk menjalankan DAG tersebut. Hasilnya adalah sebagai berikut.
+
+![image](https://user-images.githubusercontent.com/95616496/158543040-c812e15f-97b8-48eb-a910-1ade15a0c421.png)
+
