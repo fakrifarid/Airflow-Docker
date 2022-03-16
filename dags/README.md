@@ -5,7 +5,7 @@
 DAG berikut ini berisi tasks yang sederhana yang berisi:
 
 ```python
-start >> choose_best_model >> [accurate, inaccurate]
+start >> branch_task >> [dummy_task_1, dummy_task_2]
 ```
 
 `start`, `accurate`, dan `inaccurate` memakai DummyOperator sedangkan `choose_best_model` menggunakan BranchPythonOperator.
