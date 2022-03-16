@@ -47,4 +47,5 @@ docker-compose up
 
 Tunggu sampai semuanya berjalan normal, buka browser Anda dan buka halaman login Airflow dengan alamat `http://localhost:8080/`.
 
-<img src="./airflow-login.png" alt="Airflow Login" width="60%" height="60%"/>
+<img width="840" alt="airflow-login" src="https://user-images.githubusercontent.com/95616496/158541692-e874309a-509f-4b3f-b97e-e12b70d6bc12.png">
+
